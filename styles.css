@@ -422,6 +422,7 @@ h1 {
     text-align: left;
     line-height: 1.45rem;
     width: 80%;
+    font-family: "Montserrat";
 }
 
 
@@ -429,6 +430,7 @@ h1 {
 
 .ticketInfo {
     background-color: #08080B;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -453,4 +455,55 @@ h1 {
 
 .text p {
     line-height: 1.45rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #9200ff;
+    padding-bottom: 20px;
+}
+
+.footer-class h2,
+h3 {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.footerNav {
+    padding-top: 20px;
+}
+
+.footer-class {
+    margin-left: 10%;
+}
+
+.footerBorder {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+.footerForm input {
+    width: 100%;
+    border: 2px solid red;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+
+.footerForm button {
+    width: 100%;
+    background-color: #3d0369;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
 }
